@@ -1,12 +1,12 @@
 <script lang="ts">
-  export let name: string = "Foo"
-  export let nickname: string = ""
-  export let phone: string = ""
-  export let email: string = ""
-  export let github: string = ""
-  export let linkedin: string = ""
-  export let location: string = ""
-  export let website: string = ""
+  export let name: string = "Foo";
+  export let nickname: string = "";
+  export let phone: string = "";
+  export let email: string = "";
+  export let github: string = "";
+  export let linkedin: string = "";
+  export let location: string = "";
+  export let website: string = "";
 </script>
 
 <div
@@ -19,7 +19,7 @@
   </div>
 
   <h2
-    class="flex-none order-first sm:order-none print:order-none text-4xl sm:text-2xl md:text-3xl lg:text-6xl text-center p-4 print:pt-0"
+    class="flex-none order-first sm:order-none print:order-none print:text-3xl text-4xl sm:text-2xl md:text-3xl lg:text-6xl text-center p-4 print:pt-0"
   >
     {name}
     <span class="block -mt-1 text-base lg:text-lg">({nickname})</span>
