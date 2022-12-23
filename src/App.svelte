@@ -1,31 +1,24 @@
 <script lang="ts">
-  import Tailwind from "./Tailwind.svelte"
-  import Intro from "./Intro.svelte"
-  import Work from "./Work.svelte"
-  import Kofi from "./Kofi.svelte"
-  import HideToggle from "./HideToggle.svelte"
+  import Tailwind from "./Tailwind.svelte";
+  import Intro from "./Intro.svelte";
+  import Work from "./Work.svelte";
+  import HideToggle from "./HideToggle.svelte";
   import {
+    activities,
     educations,
-    fullVersionLink,
-    interests,
     introData,
     projects,
     sourceLink,
     technologies,
     workExperiences,
-  } from "./data"
+  } from "./data";
 
-  let editMode = false
+  let editMode = false;
 
   function toggleMode() {
-    editMode = !editMode
+    editMode = !editMode;
   }
 </script>
-
-<!-- Remove this is you does not want Kofi widget on your site -->
-{#if introData.github == "narze"}
-  <Kofi name={introData.github} />
-{/if}
 
 <Tailwind />
 
@@ -123,24 +116,36 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Activities</h2>
     <hr />
 
     <ul class="text-left list-disc pl-8">
-      {#each interests as interest}
+      {#each activities as activity}
         <li>
           <HideToggle />
-          {interest}
+          {activity}
         </li>
       {/each}
     </ul>
   </section>
 
+  <!-- <section> -->
+  <!--   <HideToggle /> -->
+  <!--   <h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2> -->
+  <!--   <hr /> -->
+
+  <!--   <ul class="text-left list-disc pl-8"> -->
+  <!--     {#each interests as interest} -->
+  <!--       <li> -->
+  <!--         <HideToggle /> -->
+  <!--         {interest} -->
+  <!--       </li> -->
+  <!--     {/each} -->
+  <!--   </ul> -->
+  <!-- </section> -->
+
   <footer class="print-only">
-    (See <a href={fullVersionLink} target="_blank" rel="noopener"
-      >full version</a
-    >
-    or <a href={sourceLink} target="_blank" rel="noopener">source</a>)
+    (<a href={sourceLink} target="_blank" rel="noopener">source</a>)
   </footer>
 </main>
 
