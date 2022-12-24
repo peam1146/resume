@@ -52,7 +52,7 @@ export const workExperiences = [
     details: [
       "Developed a Banpu issue tracking system.",
       "Developed back office tools with React and React Admin.",
-      "Helped, and collaborated with software engineering team on coding",
+      "Helped, and collaborated with software engineering team on coding.",
     ],
   },
   {
@@ -65,7 +65,7 @@ export const workExperiences = [
       "Developed backend service with Go, Redis, gRPC, and microservice.",
       "Setup CI/CD with Github Actions, Docker, and Argo CD.",
       "Setup gitOps and Kubernetes.",
-      "Setup logging system with Fluentd",
+      "Setup logging system with Fluentd.",
     ],
   },
   {
@@ -74,11 +74,11 @@ export const workExperiences = [
     url: "https://www.existing.co/",
     years: ["2021"],
     details: [
-      "Developed e-commerce application with flutter and Clean architecture",
-      "Developed live video streaming feature",
-      "Developed realtime chat feature",
-      "Developed mobile notification with FCM (firebase cloud message)",
-      "Helped, and collaborated with team on system design",
+      "Developed e-commerce application with flutter and Clean architecture.",
+      "Developed live video streaming feature.",
+      "Developed realtime chat feature.",
+      "Developed mobile notification with FCM (firebase cloud message).",
+      "Helped, and collaborated with team on system design.",
     ],
   },
   {
@@ -87,8 +87,8 @@ export const workExperiences = [
     url: "https://www.existing.co/",
     years: ["2021"],
     details: [
-      "Developed e-commerce Kaikong.live website",
-      "Take care settings module",
+      "Developed e-commerce Kaikong.live website.",
+      "Take care settings module.",
     ],
   },
   {
@@ -97,9 +97,9 @@ export const workExperiences = [
     url: "https://thinc.in.th/",
     years: ["2021"],
     details: [
-      "Developed a project tracking website for Student Council of Chulalongkorn University (SCCU)",
-      "Managed a team about 6 members",
-      "Developed the system infrastructure and CI/CD workflows",
+      "Developed a project tracking website for Student Council of Chulalongkorn University (SCCU).",
+      "Managed a team about 6 members.",
+      "Developed the system infrastructure and CI/CD workflows.",
     ],
   },
   // {
@@ -152,7 +152,7 @@ export const workExperiences = [
 export const projects = [
   {
     name: "Golang Clean architecture",
-    details: "An example to implement Clean Architecture in Golang",
+    details: "An example to implement Clean Architecture in Golang.",
     url: "github.com/peam1146/go_clean_architecture",
   },
   {
@@ -163,13 +163,13 @@ export const projects = [
   {
     name: "SCCU voting",
     details:
-      "A backend service for facilitating Chula student council's voting. Developed with Go, GraphQL, and WebSocket",
+      "A backend service for facilitating Chula student council's voting. Developed with Go, GraphQL, and WebSocket.",
     url: "",
   },
 ];
 
 export const activities = [
-  "Freshersfairs: College hazing with Baan Rang",
+  "Freshersfairs: College hazing with Baan Rang.",
   "Thinc. first meet: Organize a first-meet event with around 120 participants.",
   "Thinc. first act: Organzier and instructor of an event for teaching about basic programming with around 80 participants.",
   "Thinc. 10 days project: Organzier of a hackathon event with around 150 participants.",
