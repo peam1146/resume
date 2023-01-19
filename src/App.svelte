@@ -12,6 +12,7 @@
     technologies,
     workExperiences,
   } from "./data";
+  import Skill from "./Skill.svelte";
 
   let editMode = false;
 
@@ -55,23 +56,6 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">
-      Technologies and Languages
-    </h2>
-    <hr />
-    <ul class="text-left list-disc pl-8">
-      {#each technologies as tech}
-        <li>
-          <HideToggle />
-          <span class="w-28 inline-block">{tech.section}</span>
-          <span>{tech.details}</span>
-        </li>
-      {/each}
-    </ul>
-  </section>
-
-  <section>
-    <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
     <hr />
 
@@ -93,6 +77,19 @@
     {#each workExperiences as exp}
       <Work {...exp} />
     {/each}
+  </section>
+
+  <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">
+      Skills & Interests
+    </h2>
+    <hr />
+    <ul class="text-left list-disc pl-8">
+      {#each technologies as tech}
+        <Skill name={tech.section} details={tech.details} />
+      {/each}
+    </ul>
   </section>
 
   <section>
@@ -144,7 +141,8 @@
   <!--   </ul> -->
   <!-- </section> -->
 
-  <footer class="print-only">
+  <footer>
+    <HideToggle />
     (<a href={sourceLink} target="_blank" rel="noopener">source</a>)
   </footer>
 </main>

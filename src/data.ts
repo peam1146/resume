@@ -22,37 +22,50 @@ export const technologies = [
   {
     section: "Frameworks:",
     details:
-      "ReactJS (proficient), NextJS (proficient), NestJS, TailwindCSS, React Native, Flutter (proficient), Express, Fiber, Rocket.rs",
+      "ReactJS lib (proficient), NextJS (proficient), NestJS, TailwindCSS, React Native, Flutter (proficient), Express, Fiber, Rocket.rs.",
   },
   {
     section: "Tools:",
     details:
-      "Git, Terraform, Docker, Kubernetes, ArgoCD, gRPC, GraphQL, Prisma",
+      "Git, Terraform, Docker, Kubernetes, ArgoCD, gRPC, GraphQL, Prisma.",
   },
   {
     section: "Other:",
     details:
-      "AWS, GCP, Firebase, Vercel, DigitalOcean, Github Actions, microservices, VIM",
+      "AWS, GCP, Firebase, Vercel, DigitalOcean, Github Actions, microservices, VIM.",
   },
 ];
 
 export const educations = [
   {
     head: "B.Eng. Computer Engineering",
-    details: "2021-present",
+    details: "2021-present (GPAX: 3.21)",
   },
 ];
 
 export const workExperiences = [
+  {
+    position: "Course Developer",
+    company: "Cleverse Academy",
+    url: "https://academy.cleverse.com/",
+    years: ["2022-2023"],
+    details: [
+      "Collaborated with Cleverse to design and deliver a cutting edge comprehensive web development bootcamp for aspiring entry-level developers.",
+      "Developed and implemented a backend course curriculum, complete with hands-on projects and accompanying course materials, to provide a thorough understanding of fundamental web development concepts.",
+    ],
+  },
   {
     position: "Fronted Developer",
     company: "Techcombine",
     url: "https://www.techcombine.co/",
     years: ["2022"],
     details: [
-      "Developed a Banpu issue tracking system.",
-      "Developed back office tools with React and React Admin.",
-      "Helped, and collaborated with software engineering team on coding.",
+      "Implemented an issue tracking system for Banpu.",
+      "An issue tracking system process of identifying and resolving issues within the compan, in a centralized location.",
+      "Utilized React and React Admin to develop back - office tools.",
+      "Contributed to the software engineering team by providing assistance and collaborating on code development.",
+      "Optimized UI components to enhance user experience and improve performance.",
+      "Utilized Git for version control and team collaboration.",
     ],
   },
   {
@@ -62,33 +75,39 @@ export const workExperiences = [
     years: ["2022"],
     details: [
       "Developed Freshersfairs registration and group assignment system used by around 16K users.",
-      "Developed backend service with Go, Redis, gRPC, and microservice.",
-      "Setup CI/CD with Github Actions, Docker, and Argo CD.",
-      "Setup gitOps and Kubernetes.",
-      "Setup logging system with Fluentd.",
+      "Developed backend service with Go, Redis, gRPC, and microservice architecture.",
+      "Setup a continuous integration and deployment(CI / CD) pipeline with Github Actions, Docker, and Argo CD.",
+      "Implemented a gitOps workflow and used Kubernetes for managing the system's infrastructure.",
+      "Setup a logging system using Fluentd to track and monitor system activity.",
+      "The system received positive feedback from event organizers and attendees, and was credited with contributing to the successful execution of multiple Freshersfairs events with zero downtime.",
     ],
   },
   {
-    position: "Internship mobile developer",
+    position: "Intern Mobile Developer",
     company: "Existing Company",
     url: "https://www.existing.co/",
     years: ["2021"],
     details: [
-      "Developed e-commerce application with flutter and Clean architecture.",
-      "Developed live video streaming feature.",
-      "Developed realtime chat feature.",
-      "Developed mobile notification with FCM (firebase cloud message).",
-      "Helped, and collaborated with team on system design.",
+      "Developed an e-commerce application using Flutter framework and Clean Architecture design principles.",
+      "Contributed to the development of a live video streaming feature using Agora SDK.",
+      "Contributed to the development of a realtime chat feature.",
+      "Assisted in integrating FCM (Firebase Cloud Messaging) to enable mobile notifications.",
+      "Implemented robust error handling mechanisms to ensure the stable operation of the application.",
+      "Worked closely with the design team to ensure the application had a consistent and user-friendly interface.",
+      "Participated in code reviews to maintain the quality and integrity of the codebase.",
+      "Actively participated in team meetings to share knowledge and experience.",
+      "Learned about various latest technologies used in industry and improved my skills and knowledge as developer.",
     ],
   },
   {
-    position: "Freelance frontend developer",
-    company: "Existing Company",
-    url: "https://www.existing.co/",
+    position: "Freelance Front-End Developer",
+    company: "Existing Company (kaikong.live)",
+    url: "https://www.kaikong.live/",
     years: ["2021"],
     details: [
-      "Developed e-commerce Kaikong.live website.",
-      "Take care settings module.",
+      "Developed and maintained the e-commerce website for kaikong.live",
+      "Kaikong.live helps online live sellers manage their inventory and facilitates customer order confirmation through live comments using React, Ant Design, Express and PostgreSQL.",
+      "Implemented and managed the settings module for the website, and gained experience in using database diagrams and Git workflows.",
     ],
   },
   {
@@ -97,56 +116,13 @@ export const workExperiences = [
     url: "https://thinc.in.th/",
     years: ["2021"],
     details: [
-      "Developed a project tracking website for Student Council of Chulalongkorn University (SCCU).",
-      "Managed a team about 6 members.",
-      "Developed the system infrastructure and CI/CD workflows.",
+      "Developed a project documents tracking website for Student Council of Chulalongkorn University (SCCU).",
+      "Managed a team about 6 members including UX/UI, frontend, and backend.",
+      "Implemented a project management system using Github Projects and Github Issues.",
+      "Communicate with the project owner to understand the requiements and provider technical solutions.",
+      "Developed the system infrastructure and CI/CD workflows using Terraform, Docker, and Github Actions.",
     ],
   },
-  // {
-  //   position: "Maker, Co-founder",
-  //   company: "Maker Zoo",
-  //   url: "https://fb.me/makerzoo",
-  //   years: ["2014", "2016"],
-  //   details: [
-  //     "Pioneered Maker Movement in Thailand by opening first of the Makerspaces in Bangkok & Thailand",
-  //     "Hosted maker workshops eg. 3D-modeling, 3D-printing, Arduino, IoT, etc. Having more than 100 participants combined.",
-  //     "Developed hardware-related products for 3-5 clients and startups",
-  //     "Developed smart door lock system for Hubba, first co-working space in Bangkok",
-  //     "Provided 3D-printing service & consultant to more than 50 clients",
-  //     "Hosted 10+ chapters of tutorial videos on Intel Galileo development board, for Intel Thailand",
-  //   ],
-  // },
-  // {
-  //   position: "Web / IoT Developer (Contract)",
-  //   company: "Box24",
-  //   url: "https://washbox24.com",
-  //   years: ["2015", "2016"],
-  //   details: [
-  //     "Developed internet connected Smart Lockers System using web technologies (Node.js, React.js) on embedded systems (Ubuntu Linux, Arduino, Raspberry Pi)",
-  //     "Developed private Node.js library to connect with Nayax via serial port to receive cashless payment on vending machines, and also supported Thai Baht cash payment",
-  //   ],
-  // },
-  // {
-  //   position: "Web Developer",
-  //   company: "Figabyte",
-  //   url: "https://www.facebook.com/figabyte",
-  //   years: ["2011", "2014"],
-  //   details: [
-  //     "Developed more than 20 Facebook web apps with CodeIgniter, using Facebook API",
-  //     "Developed web platform using Ruby on Rails 3 & 4",
-  //     "Made iOS apps for several clients using PhoneGap and RubyMotion",
-  //   ],
-  // },
-  // {
-  //   position: "Part-time Web Developer",
-  //   company: "Wongnai Media (wongnai.com)",
-  //   url: "https://wongnai.com",
-  //   years: ["2010"],
-  //   details: [
-  //     "Developed a small part of website using Java with Spring MVC Framework built with Apache Maven",
-  //     "Learned TDD practice & making early-stage startup",
-  //   ],
-  // },
 ];
 
 export const projects = [
@@ -169,8 +145,8 @@ export const projects = [
 ];
 
 export const activities = [
-  "Freshersfairs: College hazing with Baan Rang.",
+  "Freshersfairs: Baan Rang's College hazing with around 200 participats",
   "Thinc. first meet: Organize a first-meet event with around 120 participants.",
-  "Thinc. first act: Organzier and instructor of an event for teaching about basic programming with around 80 participants.",
-  "Thinc. 10 days project: Organzier of a hackathon event with around 150 participants.",
+  "Thinc. first act: Organizer and instructor of an event for teaching about basic programming with around 80 participants.",
+  "Thinc. 10 days project: Organizer of a hackathon event with around 150 participants.",
 ];
