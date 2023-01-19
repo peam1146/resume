@@ -45,7 +45,7 @@ export const educations = [
 
 export const workExperiences = [
   {
-    position: "Course Developer",
+    position: "Course Designer",
     company: "Cleverse Academy",
     url: "https://academy.cleverse.com/",
     years: ["2022-2023"],
@@ -145,7 +145,7 @@ export const projects = [
 ];
 
 export const activities = [
-  "Freshersfairs: Baan Rang's College hazing with around 200 participats",
+  "Freshersfairs: Baan Rang's College hazing with around 200 participats.",
   "Thinc. first meet: Organize a first-meet event with around 120 participants.",
   "Thinc. first act: Organizer and instructor of an event for teaching about basic programming with around 80 participants.",
   "Thinc. 10 days project: Organizer of a hackathon event with around 150 participants.",

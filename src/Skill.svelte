@@ -13,13 +13,9 @@
   <span class="w-28 inline-block">{name}</span>
   <span
     >{#each detailsList as detail, index}
-      {#if detail.includes("proficient")}
-        <span class="font-bold"
-          >{detail}{#if index + 1 !== length}, {/if}</span
-        >
-      {:else}
-        {detail}{#if index + 1 !== length}, {/if}
-      {/if}
+      <span class={detail.includes("proficient") ? "font-bold" : ""}
+        >{detail}{#if index + 1 !== length}, {/if}</span
+      >
     {/each}</span
   >
 </li>
